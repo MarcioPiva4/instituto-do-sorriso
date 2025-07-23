@@ -3,7 +3,7 @@
 export default function Footer(){
     return(
         <footer className="w-full flex flex-col">
-            <div className="bg-[var(--secondary)] py-10 px-5 flex flex-col items-center">
+            <div className="bg-[#10071F] py-10 px-5 flex flex-col items-center">
                 <h2 className="text-center font-bold text-[24px] pb-3 mt-5">Agende agora uma avaliação</h2>
                 <p className="text-center font-normal mb-7">Sua transformação começa com um clique. Nossa equipe está pronta para te atender.</p>
                 <a href="#" className="bg-[var(--terciary)] text-[#001E55] py-2 px-4 rounded-lg font-[var(--font-secondary)] font-semibold mb-5 text-center">Quero Avaliar Meu Sorriso</a>

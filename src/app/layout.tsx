@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import { Noto_Sans } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -9,6 +10,11 @@ const montserrat = Montserrat({
 });
 
 const noto = Noto_Sans({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "900"], 
+});
+
+const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "900"], 
 });
@@ -27,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased ${montserrat.className} ${noto.className}}`}
+        className={`antialiased ${montserrat.className} ${noto.className} ${inter.className}`}
       >
         {children}
       </body>
