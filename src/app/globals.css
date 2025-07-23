@@ -1,8 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fff;
+  --primary: #304E7C;
+  --secondary: #1976D2;
+  --terciary: #F4C430;
+
+  --background-primary: #16346A;
+
+  --gradient: linear-gradient(90deg, #F4C430 0%, #FFD700 100%);
+  --gradient-button: linear-gradient(90deg, #2ED1EE 0%, #0DC6E6 100%);;
+  --gradient-whatsapp:  linear-gradient(180deg, rgba(64, 247, 111, 0.5) 0%, rgba(0, 190, 50, 0.5) 100%);
+  --gradient-bg: linear-gradient(180deg, #1E4386 0%, #0F316D 100%);
+
+
+  --text-primary: #fff;
+  --text-secondary: #1E1E1E;
+
+  --font-secondary: "Noto Sans", sans-serif;
 }
 
 @theme inline {
@@ -10,17 +25,40 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --secondary: var(--secondary);
+  --text-secondary: var(--text-secondary);
+  --gradient: var(--gradient);
+  --gradient-2: var(--gradient-2);
+  --gradient-whatsapp: var(--gradient-whatsapp);
+  --terciary: var(--terciary);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body{
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+main{
+  padding-top: 80px;
+}
+
+.link-svg-hover > svg > path {
+  transition: 0.2s all;
+}
+
+.link-svg-hover:hover > svg > path {
+  fill: var(--terciary);
+}
+
+.grandient {
+  background: var(--gradient);
+}
+
+.button-gradient {
+  background: var(--gradient-button);
+}
+
+.bg-grandient{
+  background: var(--gradient-bg);
 }
