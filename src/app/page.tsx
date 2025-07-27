@@ -8,6 +8,7 @@ import SectionExperts from "@/components/SectionExperts";
 import SectionResults from "@/components/SectionResults";
 import SectionTextImages from "@/components/SectionTextImages";
 import SectionVideo from "@/components/SectionVideo";
+import SectionSchedule from "@/components/SectionSchedule";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Banner></Banner>
         <SectionVideo></SectionVideo>
+        <SectionSchedule></SectionSchedule>
         <SectionResults></SectionResults>
         <SectionTextImages></SectionTextImages>
         <Assessment></Assessment>
