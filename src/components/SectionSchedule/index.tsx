@@ -19,7 +19,7 @@ export default function SectionSchedule() {
             href="#section-2"
             className="grandient text-[14px] sm:text-[16px] text-[#001E55] py-2 px-6 rounded-lg font-[var(--font-secondary)] font-semibold mb-5 text-center"
             >
-            QUERO MAIS INFORMAÇÕES
+            QUERO AVALIAR MEU SORRISO
         </a>
     </section>
   );
