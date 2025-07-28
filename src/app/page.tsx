@@ -9,6 +9,9 @@ import SectionResults from "@/components/SectionResults";
 import SectionTextImages from "@/components/SectionTextImages";
 import SectionVideo from "@/components/SectionVideo";
 import SectionSchedule from "@/components/SectionSchedule";
+import SectionNumberResults from "@/components/SectionNumberResults";
+import SectionBenefits from "@/components/SectionBenefits";
+import ButtonWhatsapp from "@/components/ButtonWhatsapp";
 
 export default function Home() {
   return (
@@ -18,14 +21,17 @@ export default function Home() {
         <Banner></Banner>
         <SectionVideo></SectionVideo>
         <SectionSchedule></SectionSchedule>
-        <SectionResults></SectionResults>
+        <SectionBenefits></SectionBenefits>
+        <SectionNumberResults></SectionNumberResults>
         <SectionTextImages></SectionTextImages>
         <Assessment></Assessment>
+        <SectionResults></SectionResults>
         <SectionExperts></SectionExperts>
         <Form></Form>
         <Faq></Faq>
       </main>
       <Footer></Footer>
+      <ButtonWhatsapp></ButtonWhatsapp>
     </>
   );
 }

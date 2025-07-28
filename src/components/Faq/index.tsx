@@ -4,27 +4,39 @@ import { useState } from "react";
 const faqs = [
   {
     id: 1,
-    question: "Nossos serviços são padronizados?",
+    question: "O tratamento com implante dentário dói?",
     answer:
-      "Não. Nossa estratégia é 100% personalizada com base no diagnóstico do seu negócio.",
+      "Não! O procedimento é feito com anestesia local e, na maioria dos casos, o desconforto é mínimo. Após a cirurgia, é possível seguir com a rotina normalmente, com alguns cuidados simples.",
   },
   {
     id: 2,
-    question: "Qual o prazo para ver resultados?",
+    question: "Qual a diferença entre implante dentário e protocolo?",
     answer:
-      "Resultados variam, mas nosso foco é otimizar o funil para que você veja retorno sobre o investimento o mais rápido possível.",
+      "O implante é a base metálica colocada no osso. Já o protocolo é uma prótese fixa (geralmente total) que é instalada sobre vários implantes, sendo ideal para quem perdeu todos os dentes.",
   },
   {
     id: 3,
-    question: "Minha empresa é muito pequena, vocês atendem?",
+    question: "Quanto tempo dura um implante dentário?",
     answer:
-      " Sim! Atendemos pequenas e médias empresas que buscam crescimento real.",
+      "Com os cuidados adequados, os implantes podem durar por toda a vida. A prótese sobre o implante também tem alta durabilidade, mas pode precisar de manutenção ao longo do tempo.",
   },
   {
     id: 4,
-    question: "Vocês oferecem garantia de resultados?",
+    question: "Posso fazer o protocolo mesmo sem osso suficiente?",
     answer:
-      `Nosso "skin in the game" é trabalhar em conjunto para alcançar os objetivos. O resultado é construído com base na estratégia e execução em parceria. (Ou, se houver, mencione alguma garantia mais formal).`,
+      `Sim! Hoje existem técnicas modernas, como o enxerto ósseo, que permitem realizar o protocolo mesmo em casos de perda óssea avançada.`,
+  },  
+  {
+    id: 5,
+    question: "O que é necessário para começar meu tratamento?",
+    answer:
+      "Basta agendar uma avaliação com um dos nossos especialistas. Nessa consulta, realizaremos exames e planejaremos o melhor tratamento para você.",
+  },
+  {
+    id: 6,
+    question: "É possível parcelar o tratamento?",
+    answer:
+      `Sim! Oferecemos condições facilitadas e opções de parcelamento que cabem no seu bolso. Fale conosco para simular.`,
   },
 ];
 

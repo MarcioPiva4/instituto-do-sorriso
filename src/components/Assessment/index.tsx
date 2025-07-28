@@ -18,8 +18,8 @@ const slides = [
   },
   {
     name: "Carlos Alberto",
-    age: "52 anos",
-    city: "Marília",
+    age: "32 anos",
+    city: "Garça",
     avatar: "/icon-assessment-2.png",
     background: "/bg-assessment-2.png",
     testimonial:
@@ -27,8 +27,8 @@ const slides = [
   },
   {
     name: "Fernanda Souza",
-    age: "36 anos",
-    city: "Vera Cruz",
+    age: "64 anos",
+    city: "Marília",
     avatar: "/icon-assessment-3.png",
     background: "/bg-assessment-3.png",
     testimonial:

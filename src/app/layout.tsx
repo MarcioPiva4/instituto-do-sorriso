@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`antialiased ${montserrat.className} ${noto.className} ${inter.className}`}
+        className={`antialiased ${noto.className} ${inter.className} ${montserrat.className}`}
       >
         {children}
       </body>

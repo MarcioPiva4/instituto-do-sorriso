@@ -7,15 +7,17 @@
   --terciary: #F4C430;
 
   --background-primary: #16346A;
+  --background-header: #10375c78;
 
   --gradient: linear-gradient(90deg, #F4C430 0%, #FFD700 100%);
   --gradient-button: linear-gradient(90deg, #2ED1EE 0%, #0DC6E6 100%);;
-  --gradient-whatsapp:  linear-gradient(180deg, rgba(64, 247, 111, 0.5) 0%, rgba(0, 190, 50, 0.5) 100%);
+  --gradient-whatsapp:  linear-gradient(90deg, #40F76F 0%, #00BE32 100%);
   --gradient-bg: linear-gradient(180deg, #1E4386 0%, #0F316D 100%);
 
 
   --text-primary: #fff;
   --text-secondary: #1E1E1E;
+  --text-gradient: linear-gradient(90deg, #16346A 0%, #1C59C8 50.48%, #16346A 100%);
 
   --font-secondary: "Noto Sans", sans-serif;
   --font-terciary: "Inter", sans-serif;
@@ -37,6 +39,10 @@
 body{
   background-color: var(--background);
   color: var(--text-primary);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, p, span{
   font-family: "Montserrat", sans-serif;
 }
 
@@ -90,4 +96,15 @@ main{
 
 .swiper-button-disabled{
   background-color: #595959;
+}
+
+.bg-gradient-whatsapp{
+  background: var(--gradient-whatsapp);
+}
+
+.text-gradient{
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }

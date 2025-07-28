@@ -20,13 +20,13 @@ export default function SectionExperts(){
                         <h1 className="sm:text-[32px] text-[24px] font-bold text-center sm:text-start">
                             Dr. Calebe Jr.
                         </h1>
-                        <p className="sm:text-[18px] text-[16px] text-center sm:text-start">
+                        <p className="sm:text-[18px] text-[16px] text-center sm:text-start text-[#333] font-medium">
                             CRO: 108562/SP
                         </p>
 
                         <h3 className="font-bold py-4">Especialista em implantodontia e reabilitação oral</h3>
 
-                        <ul className="text-[14px] pl-3 font-medium">
+                        <ul className="text-[14px] pl-3 text-[#333] font-medium">
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Lentes de contato dental</li>
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Implantes</li>
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Protocolo sobre implantes</li>
@@ -41,20 +41,20 @@ export default function SectionExperts(){
                         <h1 className="sm:text-[32px] text-[24px] font-bold text-center sm:text-start">
                             Dra. Luana
                         </h1>
-                        <p className="sm:text-[18px] text-[16px] text-center sm:text-start">
+                        <p className="sm:text-[18px] text-[16px] text-center sm:text-start text-[#333] font-medium">
                             CRO: 108581/SP
                         </p>
 
                         <h3 className="font-bold py-4">Especialista em ortodontia</h3>
 
-                        <ul className="text-[14px] pl-3 font-medium">
+                        <ul className="text-[14px] pl-3 text-[#333] font-medium">
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Aparelhos fixos estéticos e metálicos</li>
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Aparelhos invisiveis (é o que há de mais inovador)</li>
                         </ul>
 
                         <h3 className="font-bold py-4">Expertise em harmonização orofacial</h3>
 
-                        <ul className="text-[14px] pl-3 font-medium">
+                        <ul className="text-[14px] pl-3 text-[#333] font-medium">
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Botox</li>
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Ácido hialurônico</li>
                             <li className="flex items-center gap-2"><span className="w-[3px] h-[3px] bg-[var(--primary)] rounded-full"></span>Bioestimulador (harmonyCa)</li>
