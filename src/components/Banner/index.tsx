@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Banner(){
     return(
         <section className="p-3 lg:p-5">
-            <div className="w-full h-[800px] rounded-xl p-5 sm:p-10 bg-[url('/banner-1.png')] bg-no-repeat bg-cover bg-center">
+            <div className="w-full h-[800px] rounded-xl p-5 sm:p-10 bg-[url('/banner-1.avif')] bg-no-repeat bg-cover bg-center">
                 <div className="flex items-center justify-center pt-5 pl-3 sm:pl-10 flex-col max-w-[600px] h-full">
                     <div className="mt-10 flex flex-col gap-3 sm:gap-5 items-start">
                         <h1 className="text-start font-bold text-[26px] sm:text-[32px] pb-3 mt-5">Diga adeus à insegurança: transforme seu sorriso com o Protocolo Fixo</h1>
